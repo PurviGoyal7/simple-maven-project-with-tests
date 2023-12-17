@@ -5,7 +5,7 @@ pipeline {
 
 
 parameters {
-        string(name: 'branch', defaultValue: 'master', description: 'please enter branch to execute')
+        string(name: 'branch', defaultValue: 'main', description: 'xyz')
         choice(name: 'test', choices: ['yes', 'no'], description: 'do you want to test')
     }
 
